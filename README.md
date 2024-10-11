@@ -7,8 +7,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/butter-cloud/LeetCode/tree/master/0724-find-pivot-index) |
+| [0748-largest-number-at-least-twice-of-others](https://github.com/butter-cloud/LeetCode/tree/master/0748-largest-number-at-least-twice-of-others) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/butter-cloud/LeetCode/tree/master/0724-find-pivot-index) |
+## Sorting
+|  |
+| ------- |
+| [0748-largest-number-at-least-twice-of-others](https://github.com/butter-cloud/LeetCode/tree/master/0748-largest-number-at-least-twice-of-others) |
 <!---LeetCode Topics End-->
