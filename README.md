@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/butter-cloud/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0054-spiral-matrix](https://github.com/butter-cloud/LeetCode/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/butter-cloud/LeetCode/tree/master/0066-plus-one) |
 | [0498-diagonal-traverse](https://github.com/butter-cloud/LeetCode/tree/master/0498-diagonal-traverse) |
@@ -33,4 +34,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0054-spiral-matrix](https://github.com/butter-cloud/LeetCode/tree/master/0054-spiral-matrix) |
 | [0498-diagonal-traverse](https://github.com/butter-cloud/LeetCode/tree/master/0498-diagonal-traverse) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/butter-cloud/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 <!---LeetCode Topics End-->
