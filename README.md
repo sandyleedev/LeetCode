@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/butter-cloud/LeetCode/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/butter-cloud/LeetCode/tree/master/0066-plus-one) |
 ## Matrix
 |  |
