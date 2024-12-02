@@ -5,13 +5,7 @@ class Solution(object):
         :rtype: bool
         """
 
-        string_x = str(x)
+        if x < 0:
+            return False
 
-        for char in string_x:
-            if string_x[0] == "-":
-                return False
-            elif len(string_x) != 1 and string_x[len(string_x) - 1] == "0":
-                return False
-
-        reversed_x = string_x[::-1]
-        return string_x == reversed_x
+        return str(x) == str(x)[::-1]
