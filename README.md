@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/butter-cloud/LeetCode/tree/master/0027-remove-element) |
 | [0054-spiral-matrix](https://github.com/butter-cloud/LeetCode/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/butter-cloud/LeetCode/tree/master/0066-plus-one) |
+| [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0498-diagonal-traverse](https://github.com/butter-cloud/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0724-find-pivot-index](https://github.com/butter-cloud/LeetCode/tree/master/0724-find-pivot-index) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/butter-cloud/LeetCode/tree/master/0748-largest-number-at-least-twice-of-others) |
@@ -20,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/butter-cloud/LeetCode/tree/master/0748-largest-number-at-least-twice-of-others) |
 ## Math
 |  |
@@ -44,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
 ## String
@@ -55,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
 ## Stack
 |  |
@@ -76,4 +80,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/butter-cloud/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
