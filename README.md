@@ -44,9 +44,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/butter-cloud/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/butter-cloud/LeetCode/tree/master/0027-remove-element) |
+| [0141-linked-list-cycle](https://github.com/butter-cloud/LeetCode/tree/master/0141-linked-list-cycle) |
 ## Hash Table
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/butter-cloud/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
@@ -89,4 +91,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/butter-cloud/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Linked List
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/butter-cloud/LeetCode/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
