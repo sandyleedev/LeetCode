@@ -1,10 +1,21 @@
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
-        i = 1
+        # use binary search
+        left = 1
+        right = num
 
-        while (i <= num):
-            if i*i == num:
+        while left <= right:
+            m = int((left + right) / 2)
+            print(m)
+            m2 = m * m
+            print(m2)
+
+            if m2 == num:
                 return True
-            elif i*i > num:
-                return False 
-            i += 1
+            elif m2 < num:
+                left = m + 1
+            elif m2 > num:
+                right = m - 1
+
+
+        return False
