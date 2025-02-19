@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0009-palindrome-number](https://github.com/butter-cloud/LeetCode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/butter-cloud/LeetCode/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/butter-cloud/LeetCode/tree/master/0066-plus-one) |
+| [0367-valid-perfect-square](https://github.com/butter-cloud/LeetCode/tree/master/0367-valid-perfect-square) |
 ## Matrix
 |  |
 | ------- |
@@ -103,4 +104,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/butter-cloud/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+## Binary Search
+|  |
+| ------- |
+| [0367-valid-perfect-square](https://github.com/butter-cloud/LeetCode/tree/master/0367-valid-perfect-square) |
 <!---LeetCode Topics End-->
