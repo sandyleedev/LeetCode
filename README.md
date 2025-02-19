@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## String
 |  |
 | ------- |
@@ -62,11 +63,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/butter-cloud/LeetCode/tree/master/0020-valid-parentheses) |
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Stack
 |  |
 | ------- |
@@ -113,4 +116,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/butter-cloud/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
