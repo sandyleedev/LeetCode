@@ -6,9 +6,7 @@ class Solution:
 
         while left <= right:
             m = int((left + right) / 2)
-            print(m)
             m2 = m * m
-            print(m2)
 
             if m2 == num:
                 return True
