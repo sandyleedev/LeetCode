@@ -4,21 +4,17 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-
+        
         stack = []
-        mapping = {')': '(', '}': '{', ']': '['}
+        open_p = ["(", "{", "["]
+        p_dict = {")": "(", "}": "{", "]": "["}
 
-        for char in s:
-            if char in mapping: # 닫는 괄호일 경우
-                if not stack:
-                    return False
-                else:
-                    top_element = stack.pop()
-                    if mapping[char] != top_element:
-                        return False
+        for p in s:
+            if p in open_p:
+                stack.append(p)
             else:
-                stack.append(char)
-
+                if not stack or p_dict[p] != stack[-1]:
+                    return False
+                stack.pop()
         
         return not stack
-            
