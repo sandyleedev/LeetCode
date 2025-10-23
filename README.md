@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
 | [0498-diagonal-traverse](https://github.com/butter-cloud/LeetCode/tree/master/0498-diagonal-traverse) |
+| [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
 | [0724-find-pivot-index](https://github.com/butter-cloud/LeetCode/tree/master/0724-find-pivot-index) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/butter-cloud/LeetCode/tree/master/0748-largest-number-at-least-twice-of-others) |
 ## Prefix Sum
@@ -31,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/sandyleedev/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
+| [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/butter-cloud/LeetCode/tree/master/0748-largest-number-at-least-twice-of-others) |
 ## Math
 |  |
@@ -70,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
 ## String
 |  |
 | ------- |
@@ -86,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
 ## Stack
 |  |
 | ------- |
@@ -152,4 +156,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
+## Greedy
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
 <!---LeetCode Topics End-->
