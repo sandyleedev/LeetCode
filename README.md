@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0009-palindrome-number](https://github.com/butter-cloud/LeetCode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/butter-cloud/LeetCode/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/butter-cloud/LeetCode/tree/master/0066-plus-one) |
+| [0070-climbing-stairs](https://github.com/sandyleedev/LeetCode/tree/master/0070-climbing-stairs) |
 | [0367-valid-perfect-square](https://github.com/butter-cloud/LeetCode/tree/master/0367-valid-perfect-square) |
 ## Matrix
 |  |
@@ -121,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/sandyleedev/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/butter-cloud/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Linked List
 |  |
@@ -164,4 +166,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/sandyleedev/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
