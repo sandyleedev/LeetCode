@@ -106,12 +106,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/butter-cloud/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/butter-cloud/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
 ## Binary Tree
 |  |
 | ------- |
@@ -160,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
 ## Greedy
 |  |
 | ------- |
@@ -172,4 +175,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/sandyleedev/LeetCode/tree/master/0070-climbing-stairs) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
