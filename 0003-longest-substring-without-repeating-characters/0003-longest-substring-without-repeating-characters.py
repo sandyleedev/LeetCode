@@ -5,16 +5,16 @@ class Solution(object):
         :rtype: int
         """
         
-        seen = set()
-        l = 0           # sliding window left pointer
-        max_len = 0
+        # left, right index
+        left = 0
+        ans = 0
+        used = {}           # key - char, value - index
 
-        for r in range(len(s)):
-            while s[r] in seen:
-                seen.remove(s[l])
-                l += 1
-            seen.add(s[r])
-            max_len = max(max_len, r - l + 1)
+        for right, char in enumerate(s):
+            if char in used and used[char] >= left:
+                left = used[char] + 1
+            used[char] = right
+            ans = max(ans, right - left + 1)
         
-        return max_len
+        return ans
 
