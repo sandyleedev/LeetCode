@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
+| [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
+| [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 ## Binary Tree
 |  |
 | ------- |
@@ -163,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
+| [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 ## Greedy
 |  |
 | ------- |
@@ -171,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
+| [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 ## Memoization
 |  |
 | ------- |
@@ -179,4 +183,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
