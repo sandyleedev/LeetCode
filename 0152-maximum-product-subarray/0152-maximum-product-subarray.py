@@ -1,6 +1,6 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        # negative value
+        # be aware of negative value!!!
         # if curProduct is neg -> cur * n could be maximum
         # if curProduct is pos -> cur * n could be maximum
         # so we need to keep track of our so far maximum and minimum
