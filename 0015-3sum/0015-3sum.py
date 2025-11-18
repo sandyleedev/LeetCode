@@ -1,33 +1,25 @@
-class Solution(object):
-    def threeSum(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        res = []
         nums.sort()
-        result = []
-        for i in range(len(nums)):
-            # skip duplicate first elements to avoid duplicate triplets
-            if i > 0 and nums[i] == nums[i-1]:
+
+        # nums = [-1,0,1,2,-1,-4]
+
+        for i, a in enumerate(nums):
+            # prevent the duplicate
+            if i > 0 and a == nums[i - 1]:
                 continue
-            
-            target = -nums[i]
+
             l, r = i + 1, len(nums) - 1
             while l < r:
-                s = nums[l] + nums[r]
-                if s == target:
-                    result.append([nums[i], nums[l], nums[r]])
-                    l += 1
+                threeSum = a + nums[l] + nums[r]
+                if threeSum > 0:
                     r -= 1
-                    while l < r and nums[l] == nums[l-1]:
-                        l += 1
-                    while l < r and nums[r] == nums[r+1]:
-                        r -= 1
-        
-                elif s < target:
+                elif threeSum < 0:
                     l += 1
                 else:
-                    r -= 1
-        
-        return result
+                    res.append([a, nums[l], nums[r]])
+                    l += 1
+                    while nums[l] == nums[l - 1] and l < r:
+                        l += 1
+        return res
