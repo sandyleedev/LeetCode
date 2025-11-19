@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0053-maximum-subarray](https://github.com/sandyleedev/LeetCode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
+| [0191-number-of-1-bits](https://github.com/sandyleedev/LeetCode/tree/master/0191-number-of-1-bits) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -210,4 +211,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/sandyleedev/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0191-number-of-1-bits](https://github.com/sandyleedev/LeetCode/tree/master/0191-number-of-1-bits) |
 <!---LeetCode Topics End-->
