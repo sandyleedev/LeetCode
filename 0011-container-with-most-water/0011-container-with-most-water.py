@@ -1,9 +1,5 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        # two pointer
-        # (r - l) * min(height[r], height[l])
-        # maxArea = 0
-
         maxArea = 0
         l, r = 0, len(height) - 1
 
