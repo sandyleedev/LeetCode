@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/butter-cloud/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/butter-cloud/LeetCode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sandyleedev/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0039-combination-sum](https://github.com/sandyleedev/LeetCode/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/sandyleedev/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sandyleedev/LeetCode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/butter-cloud/LeetCode/tree/master/0054-spiral-matrix) |
@@ -230,4 +231,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0191-number-of-1-bits](https://github.com/sandyleedev/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/sandyleedev/LeetCode/tree/master/0338-counting-bits) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/sandyleedev/LeetCode/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
