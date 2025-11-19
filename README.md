@@ -99,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [1250-longest-common-subsequence](https://github.com/sandyleedev/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Counting
 |  |
 | ------- |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/sandyleedev/LeetCode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/sandyleedev/LeetCode/tree/master/0338-counting-bits) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/sandyleedev/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1250-longest-common-subsequence](https://github.com/sandyleedev/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Linked List
 |  |
 | ------- |
