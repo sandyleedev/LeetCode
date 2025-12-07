@@ -15,7 +15,6 @@ class Solution:
             else:
                 count += 1
 
-            # last char
             if i == len(chars) - 1:
                 s += chars[i]
                 if count > 1:
