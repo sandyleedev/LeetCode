@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/butter-cloud/LeetCode/tree/master/0027-remove-element) |
 | [0141-linked-list-cycle](https://github.com/butter-cloud/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sandyleedev/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0443-string-compression](https://github.com/sandyleedev/LeetCode/tree/master/0443-string-compression) |
 ## Hash Table
 |  |
 | ------- |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [0443-string-compression](https://github.com/sandyleedev/LeetCode/tree/master/0443-string-compression) |
 | [1250-longest-common-subsequence](https://github.com/sandyleedev/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Counting
 |  |
