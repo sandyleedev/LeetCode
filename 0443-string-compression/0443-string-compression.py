@@ -11,7 +11,7 @@ class Solution:
                 s += chars[i - 1]
                 if count > 1:
                     s += str(count)
-                    count = 1       # reset
+                    count = 1
             else:
                 count += 1
 
