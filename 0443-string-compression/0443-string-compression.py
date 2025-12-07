@@ -8,7 +8,6 @@ class Solution:
 
         for i in range(1, len(chars)):
             if chars[i - 1] != chars[i]:
-                print(f"{chars[i-1]} not equal to {chars[i]}")
                 s += chars[i - 1]
                 if count > 1:
                     s += str(count)
