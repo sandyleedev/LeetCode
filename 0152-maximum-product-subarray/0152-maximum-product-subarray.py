@@ -1,12 +1,7 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        # be aware of negative value!!!
-        # if curProduct is neg -> cur * n could be maximum
-        # if curProduct is pos -> cur * n could be maximum
-        # so we need to keep track of our so far maximum and minimum
         res = max(nums)
-        cur_max = 1
-        cur_min = 1
+        cur_max, cur_min = 1, 1
 
         for n in nums:
             tmp_max = cur_max
