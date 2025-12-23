@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/sandyleedev/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/sandyleedev/LeetCode/tree/master/0213-house-robber-ii) |
+| [0217-contains-duplicate](https://github.com/sandyleedev/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0322-coin-change](https://github.com/sandyleedev/LeetCode/tree/master/0322-coin-change) |
 | [0498-diagonal-traverse](https://github.com/butter-cloud/LeetCode/tree/master/0498-diagonal-traverse) |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/sandyleedev/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/sandyleedev/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/butter-cloud/LeetCode/tree/master/0748-largest-number-at-least-twice-of-others) |
@@ -89,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/butter-cloud/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
+| [0217-contains-duplicate](https://github.com/sandyleedev/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
