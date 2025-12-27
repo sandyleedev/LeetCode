@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/sandyleedev/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/butter-cloud/LeetCode/tree/master/0367-valid-perfect-square) |
+| [0371-sum-of-two-integers](https://github.com/sandyleedev/LeetCode/tree/master/0371-sum-of-two-integers) |
 ## Matrix
 |  |
 | ------- |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0191-number-of-1-bits](https://github.com/sandyleedev/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/sandyleedev/LeetCode/tree/master/0338-counting-bits) |
+| [0371-sum-of-two-integers](https://github.com/sandyleedev/LeetCode/tree/master/0371-sum-of-two-integers) |
 ## Backtracking
 |  |
 | ------- |
