@@ -1,12 +1,6 @@
 class Solution:
     def countBits(self, n: int) -> List[int]:
-        # how many 1 when n in binary representation
-        dp = [0] * (n + 1)
-        offset = 1
-
+        ans = [0] * (n + 1)
         for i in range(1, n + 1):
-            if offset * 2 == i:
-                offset = i
-            dp[i] = 1 + dp[i - offset]
-        
-        return dp
+            ans[i] = ans[i >> 1] + (i & 1)
+        return ans
