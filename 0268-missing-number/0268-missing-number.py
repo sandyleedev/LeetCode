@@ -3,8 +3,7 @@ class Solution:
         ans = len(nums)
 
         for i in range(len(nums)):
-            ans += i
-            ans -= nums[i]
+            ans += (i - nums[i])
 
         return ans
         
