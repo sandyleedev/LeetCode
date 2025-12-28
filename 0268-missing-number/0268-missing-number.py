@@ -4,10 +4,10 @@ class Solution:
         ans = 0
 
         for i in range(n):
-            ans += i        # sum 0 ~ n-1
-            ans -= nums[i]  # subtract existing numbers
+            ans += i
+            ans -= nums[i]
 
-        ans += n            # sum 0 ~ n
+        ans += n
 
         return ans
         
