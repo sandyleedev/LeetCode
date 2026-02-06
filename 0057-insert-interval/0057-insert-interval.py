@@ -3,7 +3,7 @@ class Solution:
         output = []
 
         if not intervals:
-            output.append(newInterval)
+            return [newInterval]
 
         for index, i in enumerate(intervals):
             # if newInterval is already in the output array
