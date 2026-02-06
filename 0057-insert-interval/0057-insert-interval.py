@@ -25,9 +25,7 @@ class Solution:
                     placed = True
             # overlapping -> need to merge
             else:
-                start = min(i[0], newInterval[0])
-                end = max(i[1], newInterval[1])
-                newInterval = [start, end]
+                newInterval = [min(i[0], newInterval[0]), max(i[1], newInterval[1])]
                 if index == len(intervals) - 1:
                     output.append(newInterval)
                     placed = True
