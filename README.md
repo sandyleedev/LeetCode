@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/sandyleedev/LeetCode/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/sandyleedev/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/sandyleedev/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0252-meeting-rooms](https://github.com/sandyleedev/LeetCode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0322-coin-change](https://github.com/sandyleedev/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0435-non-overlapping-intervals) |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/sandyleedev/LeetCode/tree/master/0217-contains-duplicate) |
+| [0252-meeting-rooms](https://github.com/sandyleedev/LeetCode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0435-non-overlapping-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
