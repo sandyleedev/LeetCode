@@ -3,7 +3,7 @@ class Solution:
         output = []
         inserted = False
         
-        newStart, newEnd = newInterval[0], newInterval[1]
+        newStart, newEnd = newInterval
 
         for start, end in intervals:
             if inserted:
