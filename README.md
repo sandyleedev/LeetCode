@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/sandyleedev/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/sandyleedev/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0252-meeting-rooms](https://github.com/sandyleedev/LeetCode/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/sandyleedev/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0322-coin-change](https://github.com/sandyleedev/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0435-non-overlapping-intervals) |
@@ -43,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/sandyleedev/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/sandyleedev/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0713-subarray-product-less-than-k](https://github.com/sandyleedev/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/butter-cloud/LeetCode/tree/master/0724-find-pivot-index) |
 ## Sorting
@@ -54,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/butter-cloud/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/sandyleedev/LeetCode/tree/master/0217-contains-duplicate) |
 | [0252-meeting-rooms](https://github.com/sandyleedev/LeetCode/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/sandyleedev/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
 | [0435-non-overlapping-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
@@ -88,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/butter-cloud/LeetCode/tree/master/0027-remove-element) |
 | [0141-linked-list-cycle](https://github.com/butter-cloud/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sandyleedev/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0253-meeting-rooms-ii](https://github.com/sandyleedev/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0443-string-compression](https://github.com/sandyleedev/LeetCode/tree/master/0443-string-compression) |
 ## Hash Table
 |  |
@@ -225,11 +229,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/sandyleedev/LeetCode/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/sandyleedev/LeetCode/tree/master/0055-jump-game) |
+| [0253-meeting-rooms-ii](https://github.com/sandyleedev/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0435-non-overlapping-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/sandyleedev/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0621-task-scheduler](https://github.com/sandyleedev/LeetCode/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/sandyleedev/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
