@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0100-same-tree](https://github.com/sandyleedev/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/butter-cloud/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/sandyleedev/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
+| [0226-invert-binary-tree](https://github.com/sandyleedev/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/sandyleedev/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Breadth-First Search
@@ -155,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/sandyleedev/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/sandyleedev/LeetCode/tree/master/0207-course-schedule) |
+| [0226-invert-binary-tree](https://github.com/sandyleedev/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/sandyleedev/LeetCode/tree/master/0322-coin-change) |
 | [0744-network-delay-time](https://github.com/sandyleedev/LeetCode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/sandyleedev/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -163,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0100-same-tree](https://github.com/sandyleedev/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/butter-cloud/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/sandyleedev/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
