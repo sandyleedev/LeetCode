@@ -3,19 +3,35 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        rows = []
-        cols = []
+        ROWS = len(matrix)
+        COLS = len(matrix[0])
 
-        for i in range(len(matrix)):
-            for j in range(len(matrix[i])):
-                if matrix[i][j] == 0:
-                    rows.append(i)
-                    cols.append(j)
-        
-        for r in rows:
-            matrix[r] = [0 for _ in range(len(matrix[0]))]
+        # boolean variable for indicating that zeroth row should be zero
+        zeroRow = False
 
-        for c in cols:
-            for k in range(len(matrix)):
-                matrix[k][c] = 0
+        # go through the matrix and check 0
+        for r in range(ROWS):
+            for c in range(COLS):
+                if matrix[r][c] == 0:
+                    # mark that this col needs to be updated to zero
+                    matrix[0][c] = 0
+
+                    # mark that this row needs to be zero
+                    if r > 0:       # if r is not 0
+                        matrix[r][0] = 0
+                    else:
+                        zeroRow = True
+
+        # update based on what we found
+        for r in range(1, ROWS):
+            for c in range(1, COLS):
+                if matrix[0][c] == 0 or matrix[r][0] == 0:
+                    matrix[r][c] = 0
         
+        if matrix[0][0] == 0:
+            for r in range(ROWS):
+                matrix[r][0] = 0
+        
+        if zeroRow:
+            for c in range(COLS):
+                matrix[0][c] = 0
