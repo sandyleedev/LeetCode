@@ -1,5 +1,6 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
+        # from dp[0] to dp[amount]
         dp = [amount + 1] * (amount + 1)
         dp[0] = 0
 
