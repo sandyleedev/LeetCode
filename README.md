@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/butter-cloud/LeetCode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sandyleedev/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/sandyleedev/LeetCode/tree/master/0039-combination-sum) |
+| [0048-rotate-image](https://github.com/sandyleedev/LeetCode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/sandyleedev/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sandyleedev/LeetCode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/butter-cloud/LeetCode/tree/master/0054-spiral-matrix) |
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0009-palindrome-number](https://github.com/butter-cloud/LeetCode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/butter-cloud/LeetCode/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/sandyleedev/LeetCode/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/butter-cloud/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/sandyleedev/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
@@ -76,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/sandyleedev/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/butter-cloud/LeetCode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/sandyleedev/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/sandyleedev/LeetCode/tree/master/0200-number-of-islands) |
