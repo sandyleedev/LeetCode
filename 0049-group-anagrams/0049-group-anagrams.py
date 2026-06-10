@@ -9,8 +9,4 @@ class Solution:
             else:
                 d[sstr] = [s]
         
-        output = []
-        for v in d.values():
-            output.append(v)
-        
-        return output
+        return list(d.values())
