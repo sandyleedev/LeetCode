@@ -4,15 +4,11 @@ class Solution:
 
         while l < r:
             for i in range(r - l):
-                top, bottom = l, r
-
-                # temp variable
-                topLeft = matrix[top][l + i]
-
-                matrix[top][l + i] = matrix[bottom - i][l]
-                matrix[bottom - i][l] = matrix[bottom][r - i]
-                matrix[bottom][r - i] = matrix[top + i][r]
-                matrix[top + i][r] = topLeft
+                topLeft = matrix[l][l + i]
+                matrix[l][l + i] = matrix[r - i][l]
+                matrix[r - i][l] = matrix[r][r - i]
+                matrix[r][r - i] = matrix[l + i][r]
+                matrix[l + i][r] = topLeft
+            
             r -= 1
             l += 1
-        
