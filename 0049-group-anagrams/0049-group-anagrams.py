@@ -1,25 +1,18 @@
-class Solution(object):
-    def groupAnagrams(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: List[List[str]]
-        """
-        
-        result = []
-        word_dict = {}          # key - sorted word, value - list of anagrams
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        d = dict()
+        # key: sorted string / value: str array
 
-        if len(strs) == 1:
-            result.append([strs[0]])
-            return result
-        
-        for word in strs:
-            sorted_word = ''.join(sorted(word))
-            if sorted_word in word_dict:
-                word_dict[sorted_word].append(word)
+        for s in strs:
+            # sstr = sorted(s).join("")
+            sstr = "".join(sorted(s))
+            if sstr in d:
+                d[sstr].append(s)
             else:
-                word_dict[sorted_word] = [word]
-
-        for each in word_dict.values():
-            result.append(each)
+                d[sstr] = [s]
         
-        return result
+        output = []
+        for v in d.values():
+            output.append(v)
+        
+        return output
