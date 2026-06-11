@@ -1,12 +1,9 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        d = dict()
+        d = defaultdict(list)
 
-        for s in strs:
-            sstr = "".join(sorted(s))
-            if sstr in d:
-                d[sstr].append(s)
-            else:
-                d[sstr] = [s]
+        for w in strs:
+            key = "".join(sorted(w))
+            d[key].append(w)
         
         return list(d.values())
