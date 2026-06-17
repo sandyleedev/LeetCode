@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sandyleedev/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/sandyleedev/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/sandyleedev/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/butter-cloud/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
@@ -125,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sandyleedev/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/sandyleedev/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/butter-cloud/LeetCode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/butter-cloud/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/sandyleedev/LeetCode/tree/master/0049-group-anagrams) |
@@ -195,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sandyleedev/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/sandyleedev/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/sandyleedev/LeetCode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/sandyleedev/LeetCode/tree/master/0070-climbing-stairs) |
