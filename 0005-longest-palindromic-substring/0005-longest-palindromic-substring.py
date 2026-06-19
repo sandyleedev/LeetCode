@@ -2,9 +2,9 @@ class Solution:
     def longestPalindrome(self, s: str) -> str:
         res = ""
         resLen = 0
-        
+
         for i in range(len(s)):
-            # odd
+            # odd length palindrom
             l, r = i, i
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 if r - l + 1 > resLen:
@@ -12,8 +12,8 @@ class Solution:
                     resLen = r - l + 1
                 l -= 1
                 r += 1
-                
-            # even
+            
+            # even length palidrom
             l, r = i, i + 1
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 if r - l + 1 > resLen:
