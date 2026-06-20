@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0252-meeting-rooms](https://github.com/sandyleedev/LeetCode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/sandyleedev/LeetCode/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/sandyleedev/LeetCode/tree/master/0268-missing-number) |
+| [0271-encode-and-decode-strings](https://github.com/sandyleedev/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0322-coin-change](https://github.com/sandyleedev/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0498-diagonal-traverse](https://github.com/butter-cloud/LeetCode/tree/master/0498-diagonal-traverse) |
@@ -134,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/sandyleedev/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0205-isomorphic-strings](https://github.com/butter-cloud/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/sandyleedev/LeetCode/tree/master/0242-valid-anagram) |
+| [0271-encode-and-decode-strings](https://github.com/sandyleedev/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0383-ransom-note](https://github.com/butter-cloud/LeetCode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/butter-cloud/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/sandyleedev/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
@@ -298,4 +300,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/sandyleedev/LeetCode/tree/master/0039-combination-sum) |
+## Design
+|  |
+| ------- |
+| [0271-encode-and-decode-strings](https://github.com/sandyleedev/LeetCode/tree/master/0271-encode-and-decode-strings) |
 <!---LeetCode Topics End-->
