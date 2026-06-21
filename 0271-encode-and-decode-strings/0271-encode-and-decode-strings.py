@@ -1,23 +1,24 @@
 class Codec:
     def encode(self, strs: List[str]) -> str:
-        res = []
-        for s in strs:
-            res.append(str(len(s)) + "#" + s)
-        return "".join(res)
+        res = ""
+        for w in strs:
+            res += str(len(w)) + "#" + w
+        return res
         
-
+    
     def decode(self, s: str) -> List[str]:
         res = []
-        i = 0
+        i = 0       # current delimeter index
+        
         while i < len(s):
             j = i
             while s[j] != "#":
-                j += 1
+                j += 1                
+            # char is not #
             length = int(s[i:j])
-            res.append(s[j + 1: j + length + 1])
+            res.append(s[j+1:j+1+length])
             i = j + length + 1
         return res
-
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
