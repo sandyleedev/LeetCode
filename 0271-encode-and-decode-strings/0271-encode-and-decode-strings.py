@@ -1,9 +1,9 @@
 class Codec:
     def encode(self, strs: List[str]) -> str:
-        res = ""
+        res = []
         for w in strs:
-            res += str(len(w)) + "#" + w
-        return res
+            res.append(str(len(w)) + "#" + w)
+        return "".join(res)
         
     
     def decode(self, s: str) -> List[str]:
