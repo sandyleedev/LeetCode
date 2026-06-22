@@ -13,7 +13,7 @@ class Solution:
         curr_node = head
 
         while curr_node:
-            if curr_node in nodes:
+            if curr_node.next in nodes:
                 return True
             nodes.add(curr_node)
             curr_node = curr_node.next
