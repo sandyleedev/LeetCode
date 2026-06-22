@@ -8,12 +8,12 @@ class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         if not head or not head.next:
             return False
-
+        
         nodes = set()
         curr_node = head
 
         while curr_node:
-            if curr_node.next in nodes:
+            if curr_node in nodes:
                 return True
             nodes.add(curr_node)
             curr_node = curr_node.next
