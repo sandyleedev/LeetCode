@@ -16,12 +16,11 @@ class Solution:
         # if it's not and None, 
 
         # next exists and value not in set
-        while curr_node.next and not curr_node in nodes:
+        while curr_node:
+            if curr_node.next in nodes:
+                return True
             nodes.add(curr_node)
             curr_node = curr_node.next
-
-        if curr_node in nodes:
-            return True
 
         return False
         
