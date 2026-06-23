@@ -14,8 +14,8 @@ class Solution:
         if not list1 and not list2:
             return list1
 
-        dummy = ListNode()
-        curr = dummy
+        res = ListNode()
+        curr = res          # first
 
         p1 = list1
         p2 = list2
@@ -36,4 +36,4 @@ class Solution:
         if p2:
             curr.next = p2
 
-        return dummy.next
+        return res.next
