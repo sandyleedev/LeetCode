@@ -142,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/sandyleedev/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/sandyleedev/LeetCode/tree/master/0443-string-compression) |
 | [0647-palindromic-substrings](https://github.com/sandyleedev/LeetCode/tree/master/0647-palindromic-substrings) |
+| [1143-longest-common-subsequence](https://github.com/sandyleedev/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/sandyleedev/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Counting
 |  |
@@ -216,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/sandyleedev/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/sandyleedev/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/sandyleedev/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1143-longest-common-subsequence](https://github.com/sandyleedev/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/sandyleedev/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Linked List
 |  |
