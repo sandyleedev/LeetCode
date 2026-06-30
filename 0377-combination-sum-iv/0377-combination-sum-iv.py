@@ -2,8 +2,8 @@ from functools import lru_cache
 
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
-
         nums.sort()
+
         @lru_cache(maxsize = None)
         def combs(remain):
             if remain == 0:
