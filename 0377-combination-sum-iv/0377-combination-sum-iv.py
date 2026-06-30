@@ -4,7 +4,7 @@ class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
         nums.sort()
         
-        @lru_cache(maxsize = None)
+        @lru_cache(None)
         def combs(remain):
             if remain == 0:
                 return 1
