@@ -3,7 +3,7 @@ class Solution:
         total_slots = (m - 1) + (n - 1)
 
         mul = 1
-        for i in range(0, m - 1):
+        for i in range(0, min(m - 1, n - 1)):
             mul *= total_slots - i
             mul //= (i + 1)
 
