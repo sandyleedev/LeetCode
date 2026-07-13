@@ -1,38 +1,31 @@
-from collections import defaultdict, deque
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        preMap = {course: [] for course in range(numCourses)}
 
-class Solution(object):
-    def canFinish(self, numCourses, prerequisites):
-        """
-        :type numCourses: int
-        :type prerequisites: List[List[int]]
-        :rtype: bool
-        """
-
-        # key: pre-course, value: courses that can be taken after
-        graph = defaultdict(list)
-
-        # number of pre-courses of this specific course
-        indegree = [0] * numCourses
-
-        for course, pre in prerequisites:
-            graph[pre].append(course)
-            indegree[course] += 1
-
-        # queue of the courses whose indegree is 0
-        queue = deque()
-
-        for i in range(numCourses):
-            if indegree[i] == 0:
-                queue.append(i)
+        for crs, pre in prerequisites:
+            preMap[crs].append(pre)
         
-        taken = 0
+        visiting = set()
 
-        while queue:
-            cur = queue.popleft()
-            taken += 1
-            for nxt in graph[cur]:
-                indegree[nxt] -= 1
-                if indegree[nxt] == 0:
-                    queue.append(nxt)
+        def dfs(crs):
+            if crs in visiting:
+                return False
+            
+            if preMap[crs] == []:
+                return True
+            
+            visiting.add(crs)
+
+            for pre in preMap[crs]:
+                if not dfs(pre):
+                    return False
+            
+            visiting.remove(crs)
+            preMap[crs] = []
+
+            return True
         
-        return taken == numCourses
+        for course in range(numCourses):
+            if not dfs(course): return False
+        
+        return True
