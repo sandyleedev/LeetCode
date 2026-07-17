@@ -2,25 +2,28 @@ class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not grid:
             return 0
-        
-        res = 0
 
-        for r in range(len(grid)):
-            for c in range(len(grid[0])):
-                if grid[r][c] == "1":
-                    res += 1
-                    grid[r][c] = "0"
+        num_rows = len(grid)
+        num_cols = len(grid[0])
 
-                    neighbors = deque([(r, c)])
-                    while neighbors:
-                        row, col = neighbors.popleft()
-                        for dr, dc in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
-                            new_row = dr + row
-                            new_col = dc + col
+        num_islands = 0
 
-                            if (0 <= new_row < len(grid)
-                                and 0 <= new_col < len(grid[0])
+        for i in range(num_rows):
+            for j in range(num_cols):
+                if grid[i][j] == "1":
+                    num_islands += 1
+                    grid[i][j] == "0"
+
+                    q = deque([(i, j)])
+                    while q:
+                        row, col = q.popleft()
+                        for x, y in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                            new_row = row + x
+                            new_col = col + y
+                            if (0 <= new_row < num_rows
+                                and 0 <= new_col < num_cols
                                 and grid[new_row][new_col] == "1"):
-                                    grid[new_row][new_col] = "0"
-                                    neighbors.append((new_row, new_col))
-        return res
+                                grid[new_row][new_col] = "0"
+                                q.append((new_row, new_col))
+        
+        return num_islands
