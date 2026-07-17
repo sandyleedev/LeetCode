@@ -8,13 +8,12 @@ class Solution:
 
         num_islands = 0
 
-        for i in range(num_rows):
-            for j in range(num_cols):
-                if grid[i][j] == "1":
+        for r in range(num_rows):
+            for c in range(num_cols):
+                if grid[r][c] == "1":
                     num_islands += 1
-                    grid[i][j] == "0"
-
-                    q = deque([(i, j)])
+                    grid[r][c] = "0"
+                    q = deque([(r, c)])
                     while q:
                         row, col = q.popleft()
                         for x, y in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
@@ -22,7 +21,8 @@ class Solution:
                             new_col = col + y
                             if (0 <= new_row < num_rows
                                 and 0 <= new_col < num_cols
-                                and grid[new_row][new_col] == "1"):
+                                and grid[new_row][new_col] == "1"
+                            ):
                                 grid[new_row][new_col] = "0"
                                 q.append((new_row, new_col))
         
