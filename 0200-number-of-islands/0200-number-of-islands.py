@@ -4,19 +4,23 @@ class Solution:
             return 0
         
         res = 0
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j] == "1":
-                    self.dfs(grid, i, j)
-                    res += 1
-        return res
-        
-    def dfs(self, grid, r, c):
-        if r < 0 or r >= len(grid) or c < 0 or c >= len(grid[0]) or grid[r][c] != "1":
-            return
-        grid[r][c] = "0"
 
-        self.dfs(grid, r - 1, c)
-        self.dfs(grid, r, c - 1)
-        self.dfs(grid, r + 1, c)
-        self.dfs(grid, r, c + 1)
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
+                if grid[r][c] == "1":
+                    res += 1
+                    grid[r][c] = "0"
+
+                    neighbors = deque([(r, c)])
+                    while neighbors:
+                        row, col = neighbors.popleft()
+                        for dr, dc in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
+                            new_row = dr + row
+                            new_col = dc + col
+
+                            if (0 <= new_row < len(grid)
+                                and 0 <= new_col < len(grid[0])
+                                and grid[new_row][new_col] == "1"):
+                                    grid[new_row][new_col] = "0"
+                                    neighbors.append((new_row, new_col))
+        return res
