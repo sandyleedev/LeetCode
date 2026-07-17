@@ -4,27 +4,19 @@ class Solution:
             return 0
         
         res = 0
-
-        for r in range(len(grid)):
-            for c in range(len(grid[0])):
-                if grid[r][c] == "1":
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == "1":
+                    self.dfs(grid, i, j)
                     res += 1
-                    grid[r][c] = "0"
-
-                    neighbors = []
-                    neighbors.append((r, c))
-                    while neighbors:
-                        row, col = neighbors.pop(0)
-                        if row - 1 >= 0 and grid[row - 1][col] == "1":
-                            neighbors.append((row - 1, col))
-                            grid[row - 1][col] = "0"
-                        if row + 1 < len(grid) and grid[row + 1][col] == "1":
-                            neighbors.append((row + 1, col))
-                            grid[row + 1][col] = "0"
-                        if col - 1 >= 0 and grid[row][col - 1] == "1":
-                            neighbors.append((row, col - 1))
-                            grid[row][col - 1] = "0"
-                        if col + 1 < len(grid[0]) and grid[row][col + 1] == "1":
-                            neighbors.append((row, col + 1))
-                            grid[row][col + 1] = "0"
         return res
+        
+    def dfs(self, grid, r, c):
+        if r < 0 or r >= len(grid) or c < 0 or c >= len(grid[0]) or grid[r][c] != "1":
+            return
+        grid[r][c] = "0"
+
+        self.dfs(grid, r - 1, c)
+        self.dfs(grid, r, c - 1)
+        self.dfs(grid, r + 1, c)
+        self.dfs(grid, r, c + 1)
