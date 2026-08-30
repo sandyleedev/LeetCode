@@ -10,18 +10,17 @@ class Solution:
         """
         if not head or not head.next:
             return
-            
+
         slow = head
         fast = head
 
         while fast.next and fast.next.next:
             slow = slow.next
             fast = fast.next.next
-        
+
         second = slow.next
         slow.next = None
 
-        # reverse the second half
         prev = None
         while second:
             next_node = second.next
@@ -29,17 +28,16 @@ class Solution:
 
             prev = second
             second = next_node
-        
+
         second = prev
 
         first = head
         while second:
             tmp1 = first.next
             tmp2 = second.next
-
+            
             first.next = second
             second.next = tmp1
 
             first = tmp1
             second = tmp2
-            
