@@ -6,11 +6,39 @@
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        if not preorder or not inorder:
-            return None
+        # store the inorder value:index in the hashmap
+        # to locate easily later
+
+        inorder_map = {}
+
+        for i, value in enumerate(inorder):
+            inorder_map[value] = i
         
-        root = TreeNode(preorder[0])
-        mid = inorder.index(preorder[0])
-        root.left = self.buildTree(preorder[1:mid+1], inorder[:mid])
-        root.right = self.buildTree(preorder[mid+1:], inorder[mid+1:])
-        return root
+        curr_pre_index = 0
+
+        def build(left, right):
+            nonlocal curr_pre_index
+
+            if left > right:
+                return None
+
+            root_value = preorder[curr_pre_index]
+            curr_pre_index += 1
+
+            # make root node
+            root = TreeNode(root_value)
+            mid_index = inorder_map[root_value]
+
+            root.left = build(left, mid_index - 1)
+            root.right = build(mid_index + 1, right)
+
+            return root
+        
+        return build(0, len(preorder) - 1)
+
+
+
+
+
+            
+
