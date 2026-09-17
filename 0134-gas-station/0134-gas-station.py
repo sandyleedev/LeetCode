@@ -12,8 +12,6 @@ class Solution:
             if total < 0:
                 total = 0
                 res = i + 1
-        
+            
         return res
-        
-        
 
