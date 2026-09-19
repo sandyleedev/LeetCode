@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/butter-cloud/LeetCode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sandyleedev/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/sandyleedev/LeetCode/tree/master/0039-combination-sum) |
+| [0045-jump-game-ii](https://github.com/sandyleedev/LeetCode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/sandyleedev/LeetCode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/sandyleedev/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sandyleedev/LeetCode/tree/master/0053-maximum-subarray) |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sandyleedev/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0045-jump-game-ii](https://github.com/sandyleedev/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/sandyleedev/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/sandyleedev/LeetCode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/sandyleedev/LeetCode/tree/master/0062-unique-paths) |
@@ -296,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sandyleedev/LeetCode/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/sandyleedev/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/sandyleedev/LeetCode/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/sandyleedev/LeetCode/tree/master/0134-gas-station) |
 | [0253-meeting-rooms-ii](https://github.com/sandyleedev/LeetCode/tree/master/0253-meeting-rooms-ii) |
