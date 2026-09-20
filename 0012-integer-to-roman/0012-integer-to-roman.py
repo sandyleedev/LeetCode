@@ -2,7 +2,7 @@ class Solution:
     def intToRoman(self, num: int) -> str:
         res = ""
 
-        while 1000 <= num < 4000:
+        while 1000 <= num:
             num -= 1000
             res += "M"
         
@@ -18,7 +18,7 @@ class Solution:
             num -= 400
             res += "CD"
         
-        while 100 <= num < 400:
+        while 100 <= num:
             num -= 100
             res += "C"
         
@@ -34,7 +34,7 @@ class Solution:
             num -= 40
             res += "XL"
         
-        while 10 <= num < 40:
+        while 10 <= num:
             num -= 10
             res += "X"
         
@@ -50,7 +50,7 @@ class Solution:
             num -= 4
             res += "IV"
         
-        while 1 <= num < 4:
+        while 1 <= num:
             num -= 1
             res += "I"
 
