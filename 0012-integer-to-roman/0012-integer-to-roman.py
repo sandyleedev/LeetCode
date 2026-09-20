@@ -1,6 +1,5 @@
 class Solution:
     def intToRoman(self, num: int) -> str:
-        res = ""
         rules = [
             (1000, "M"),
             (900, "CM"),
@@ -16,10 +15,11 @@ class Solution:
             (4, "IV"),
             (1, "I")
         ]
+        res = ""
 
         for value, symbol in rules:
             while num >= value:
                 num -= value
                 res += symbol
-
+        
         return res
